@@ -16,7 +16,8 @@ const Protected = ({ children }) => {
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/login" replace />} />
+      {/* <Route path="/" element={<Navigate to="/login" replace />} /> */}/
+      <Route path="/" element={<Login />} />
 
       <Route path="/login" element={<Login />} />
       <Route path="/otp" element={<Otp />} />
