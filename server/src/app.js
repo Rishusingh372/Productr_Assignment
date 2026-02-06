@@ -19,8 +19,7 @@ app.use(
   cors({
     origin: ["http://localhost:5173" ,"https://productr-assignment-zeks.vercel.app/login"],
     credentials: true,
-    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
   })
 );
 
