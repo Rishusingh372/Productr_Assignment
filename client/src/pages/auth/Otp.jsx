@@ -1,7 +1,3 @@
-// ✅ Otp.jsx (Same styling as your Figma-like Login page)
-// NOTE:
-// 1) runner image: client/src/assets/runner.jpg
-// 2) same left gradient panel + center image card
 
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";

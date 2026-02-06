@@ -1,7 +1,3 @@
-// ✅ Login.jsx (Same-to-same like your Figma)
-// NOTE: runner image ko yahan import karo:
-// 1) client/src/assets/runner.jpg  (jo tumne bheja hai)
-// 2) path update if filename different
 
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
